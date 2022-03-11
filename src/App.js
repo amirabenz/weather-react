@@ -40,14 +40,9 @@ function App() {
               <span id="temp">3</span>
             </div>
             <div className="col-4 c">
-              <a href="#" id="celsius">
-                | <strong>°C </strong>
-              </a>
+              | <strong>°C </strong>
               <br />
-
-              <a href="#" id="fahrenheit">
-                °F
-              </a>
+              °F
             </div>
           </div>
         </div>
