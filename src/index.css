@@ -1,3 +1,8 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 30px;
+  max-width: 700;
+}
 .container {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/984/original/parrish-freeman-H1lq6G3WCdQ-unsplash.jpg?1647004335")
     no-repeat center center fixed;
