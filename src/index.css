@@ -16,3 +16,17 @@ body {
   border-radius: 20px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
 }
+#source-code {
+  text-decoration: none;
+  color: #ffc107;
+}
+#source-code:hover {
+  color: rgb(100, 161, 197);
+}
+footer {
+  text-align: center;
+
+  padding: 10px;
+
+  font-size: 14px;
+}
