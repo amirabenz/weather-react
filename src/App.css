@@ -1,16 +1,16 @@
-body {
+.App body {
   font-family: "Quicksand", sans-serif;
   margin: 30px;
   max-width: 700;
 }
-ul {
+.App ul {
   list-style-type: none;
   font-size: 15px;
   padding: 0;
   text-align: center;
   margin: 40px 0;
 }
-li {
+.App li {
   font-size: 12px;
   padding: 4px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -20,28 +20,28 @@ li {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-li div {
+.App li div {
   font-size: 16px;
 }
-strong {
+.App strong {
   font-weight: 700;
 }
-footer {
+.App footer {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   padding: 10px;
   margin-bottom: 30px;
   font-size: 14px;
 }
-#source-code {
+.App #source-code {
   text-decoration: none;
   color: darkcyan;
 }
-#source-code:hover {
+.App #source-code:hover {
   color: rgb(100, 161, 197);
 }
 
-.container {
+.App .container {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/984/original/parrish-freeman-H1lq6G3WCdQ-unsplash.jpg?1647004335")
     no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -54,12 +54,12 @@ footer {
   border-radius: 20px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
 }
-.actual-city {
+.App .actual-city {
   font-size: 30px;
   color: white;
   margin: 10px;
 }
-.actual-date {
+.App .actual-date {
   color: white;
   font-weight: 100;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -68,42 +68,42 @@ footer {
   background-color: transparent;
 }
 
-.img-icon {
+.App .img-icon {
   width: 130px;
 }
-.weather-description {
+.App .weather-description {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
 }
-.actual-temperature {
+.App .actual-temperature {
   font-weight: 100;
   color: white;
 }
-.degree {
+.App .degree {
   font-size: 14px;
   text-align: left;
 }
-#celsius,
-#fahrenheit {
+.App #celsius,
+.App #fahrenheit {
   text-decoration: none;
   color: white;
 }
-#celsius:hover,
-#fahrenheit:hover {
+.App #celsius:hover,
+.App #fahrenheit:hover {
   color: #ffc107;
 }
-.c {
+.App .c {
   margin-top: 50px;
   padding: 20px;
 }
-.t {
+.App .t {
   text-align: left;
 }
-#temp {
+.App #temp {
   font-size: 120px;
 }
 
-.day-info {
+.App .day-info {
   border: 2px solid #ffc107;
   margin: 10px 4px;
   border-radius: 10px;
@@ -111,23 +111,23 @@ footer {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-in-out;
 }
-.day-info:hover {
+.App .day-info:hover {
   color: black;
   background-color: #ffc107;
   margin: 0 4px;
 }
-.day-info:hover .day {
+.App .day-info:hover .day {
   color: black;
   font-size: 14px;
 }
-#searched-city {
+.App #searched-city {
   border: none;
   border-radius: 10px;
   padding: 6px 0 6px 6px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-#search-button {
+.App #search-button {
   border: 2px solid #ffc107;
   border-radius: 20px;
   color: white;
@@ -136,12 +136,12 @@ footer {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-in-out;
 }
-#search-button:hover {
+.App #search-button:hover {
   background-color: #ffc107;
   color: black;
 }
 
-#here-now {
+.App #here-now {
   font-size: 13px;
   border: 2px solid #ffc107;
   padding: 3px 10px;
@@ -154,30 +154,30 @@ footer {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 200ms ease-in-out;
 }
-#here-now:hover {
+.App #here-now:hover {
   color: black;
 }
-.forecast {
+.App .forecast {
   margin-left: 25px;
 }
-.day {
+.App .day {
   font-size: 12px;
   color: #ffc107;
 }
-.temperature {
+.App .temperature {
   font-size: 14px;
   width: 60px;
 }
-.icon-forecast {
+.App .icon-forecast {
   width: 40px;
   margin: 0;
   padding: 0;
 }
 
-.max {
+.App .max {
   font-weight: 500;
 }
-.min {
+.App .min {
   font-weight: 100;
   opacity: 0.7;
 }
