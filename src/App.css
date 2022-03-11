@@ -41,7 +41,7 @@
   color: rgb(100, 161, 197);
 }
 
-.App .container {
+.container {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/984/original/parrish-freeman-H1lq6G3WCdQ-unsplash.jpg?1647004335")
     no-repeat center center fixed;
   -webkit-background-size: cover;
